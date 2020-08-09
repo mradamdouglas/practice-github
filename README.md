@@ -1,11 +1,25 @@
-# This is a repository for practicing with Git and Github
+## GIT Commands ##
+**git checkout**
+	
+**git pull**
+	Automatically merge the remote branch with the current local branch
 
-## Author: **Adam Douglas**
+**git fetch** 
+	Download remote branches from remote repositories *without* merging the content with your current workspace
+	automatically
 
-### It's OK to break stuff here.  Learn by failing...
+**git remote update**
+	Get the contents of a remote branch *without* merging
 
-List of function files: 
+**git log -p -1**
 
--myfuncs.sh
+**git remote show origin** 
+	Find more information about a remote branch 
 
+## GIT Merges ##
+**Explicit merge**
+	Creates a new merge commit
 
+**Fast-Forward merge**
+
+**Implicit merge**

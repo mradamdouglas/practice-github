@@ -1,4 +1,4 @@
-##GIT Commands##
+## GIT Commands ##
 **git checkout**
 	
 **git pull**
@@ -16,7 +16,7 @@
 **git remote show origin** 
 	Find more information about a remote branch 
 
-##GIT Merges##
+## GIT Merges ##
 **Explicit merge**
 	Creates a new merge commit
 
