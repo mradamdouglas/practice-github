@@ -3,9 +3,9 @@
 
 	Sets configuration settings
 
-	**\--global user.name "[name]":** Sets the name you want attached to your commit transactions.
-	**--global user.email "[email address]":** Sets the email you want attached to your commit transactions.
-	**--global color.ui auto:** Enables helpful colorization of command line output
+	**\--global user.name "[name]":** Sets the name you want attached to your commit transactions::
+	**--global user.email "[email address]":** Sets the email you want attached to your commit transactions::
+	**--global color.ui auto:** Enables helpful colorization of command line output::
 
 
 ## Branches ##
@@ -16,7 +16,7 @@
 	**[branch-name]**: Switches to the specified branch and updates the directory
 
 ### git merge ###
-	Combines the specified branch's history into the current branch. This is usually done in pull requests, but is an important Git operation.
+	Combines the specified branch's history into the current branch. This is usually done in pull requests, but is an important Git operation::
 
 
 ## Create Repos ##
@@ -24,12 +24,12 @@
 	Turn an existing directory into a git repository
 
 ### git clone ###
-	**[url]:** Clone (download) a repository that already exists on GitHub, including all the files, branches and commits.
+	**[url]:** Clone (download) a repository that already exists on GitHub, including all the files, branches and commits::
 
 
 ## Synchronize Changes ##
 ### git fetch ###
-	Download remote branches from remote repositories *without* merging the content with your current workspace	automatically
+	Download remote branches from remote repositories *without* merging the content with your current workspace automatically::
 
 ### git merge ###
 	Combines remote tracking branch into current local branches
@@ -49,7 +49,7 @@
 
 ### git diff ###
 	**[first-name]...[second-name]:** Shows content differences between two branches
-	**--staged:** An alias to --cached, this will show all staged files compared to the named commit
+	**--staged:** An alias to --cached, this will show all staged files compared to the named commit::
 
 ### git show ###
 	**[commit]:** Outputs metadata and content changes of the specified commit
@@ -84,8 +84,8 @@
 
 
 ## Glossary ##
-	**pull request:** a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more
-	**HEAD:** Representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using git checkout
+	**pull request:** a place to compare and discuss the differences introduced on a branch with reviews, comments, integrated tests, and more::
+	**HEAD:** Representing your current working directory, the HEAD pointer can be moved to different branches, tags, or commits when using git checkout::
 
 
 ## Merge Types ##
