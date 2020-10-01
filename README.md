@@ -81,6 +81,8 @@ Records file snapshots permanently in version history
 
 **-m [descriptive-message]:**  Adds a description message to the commit
 
+### git bisect ###
+Use binary search to find a commit that introduces a bug.  Selected a commit in the middle of a range of history, **checks it out**, and outputs the number of untested commits.  Accetps a number of commands to aid in locating and testing for bad code.
 
 # Redo Commits #
 ### git reset ###
@@ -97,12 +99,18 @@ Changes the base commit that is used for branches. Reapplies commits on top of a
 
 **[branch]** perform an automatic git checkout of the branch before doing anything else.  
 
+
+
 ## Remote Commands ##
 ### git remote update ###
 Get the contents of a remote branch **without** merging
 
 ### git remote show origin ###
 Find more information about a remote branch
+
+### git remote add upstream ###
+sets the upstream path for a repository e.g.
+``git remote add upstream https://github.com/[git-username]/it-cert-automation-practice.git``
 
 ### git log ###
 **-l:**
